@@ -19,6 +19,8 @@
         <module>hystrix</module>
         <module>configserver</module>
         <module>configclient</module>
+        <module>gitconfigserver</module>
+        <module>gitconfigclient</module>
     </modules>
     <parent>
         <artifactId>spring-boot-starter-parent</artifactId>

@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    config:
+      name: gitconfigclient
+      label: master
+      discovery:
+        enabled: true
+        service-id: http://localhost:8888

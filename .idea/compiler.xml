@@ -9,6 +9,8 @@
         <module name="consumer" />
         <module name="zuul" />
         <module name="eurekaserver" />
+        <module name="gitconfigserver" />
+        <module name="gitconfigclient" />
         <module name="resttemplate" />
         <module name="hystrix" />
         <module name="ribbon" />
@@ -28,6 +30,8 @@
       <module name="eurekaclient" options="-parameters" />
       <module name="eurekaserver" options="-parameters" />
       <module name="fegin" options="-parameters" />
+      <module name="gitconfigclient" options="-parameters" />
+      <module name="gitconfigserver" options="-parameters" />
       <module name="hystrix" options="-parameters" />
       <module name="resttemplate" options="-parameters" />
       <module name="ribbon" options="-parameters" />
