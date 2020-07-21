@@ -13,8 +13,6 @@ spring:
           password: 1371002874abcd
       label: master
 eureka:
-  instance:
-    prefer-ip-address: true
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/

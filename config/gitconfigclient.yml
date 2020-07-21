@@ -1,10 +1,9 @@
 server:
   port: 8070
-foo: foo version 2
+spring:
+  application:
+    name: gitconfigclient
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
-spring:
-  application:
-    name: gitconfigclient
